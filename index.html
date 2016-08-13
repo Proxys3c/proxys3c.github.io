@@ -13,7 +13,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Proxys3c by Proxys3c</title>
+    <title>Proxys3c Github site's</title>
   </head>
 
   <body>
@@ -33,7 +33,8 @@
         </section>
       </div>
     </div>
-
-  
+    <script> //show title one by one
+var tit = document.title;var c = 0; function writetitle() {document.title = tit.substring(0,c);if(c==tit.length){c = 0;setTimeout("writetitle()", 2000)}else {c++;setTimeout("writetitle()",275)}}writetitle()
+    </script>
   </body>
 </html>
