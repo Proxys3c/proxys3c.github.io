@@ -25,11 +25,11 @@ if (!window.requestAnimationFrame) {
             defaults = {
                 star: {
                     color: 'rgba(255, 255, 255, 1)',
-                    width: 1
+                    width: 0
                 },
                 line: {
                     color: 'rgba(255, 255, 255, 1)',
-                    width: 0.4
+                    width: 0
                 },
                 position: {
                     x: 0, // This value will be overwritten at startup
@@ -193,7 +193,7 @@ $('canvas').constellation({
         width: 3
     },
     line: {
-        color: 'rgba(51, 204, 51, 1)'
+        color: 'rgba(255, 255, 255, 1)'
     },
-    radius: 250
+    radius: 100
 });

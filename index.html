@@ -21,6 +21,19 @@
     <![endif]-->
 
     <title>Proxys3c Github site's</title>
+    <!-- required, default behaviour -->
+  <script src="js/snowstorm.js"></script>
+
+<!-- now, we'll customize the snowStorm object -->
+  <script>
+snowStorm.snowColor = '#fff';
+snowStorm.snowStick = true;
+snowStorm.useMeltEffect = true;
+snowStorm.followMouse = false;
+snowStorm.autoStart = true; 
+snowStorm.flakesMaxActive = 96;    // show more snow on screen at once
+snowStorm.useTwinkleEffect = true; // let the snow flicker in and out of view
+  </script>
   </head>
 
   <body>
@@ -41,12 +54,12 @@
         </section>
       </div>
     </div>
-    <script src="javascript/main.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.1/js/jquery.swipebox.min.js"></script>
-    <script src="javascripts/constellation.js"></script>
-    <script> //show title one by one
+<!--     <script src="javascripts/constellation.js"></script>
+ -->    <script> //show title one by one
 var tit = document.title;var c = 0; function writetitle() {document.title = tit.substring(0,c);if(c==tit.length){c = 0;setTimeout("writetitle()", 2000)}else {c++;setTimeout("writetitle()",275)}}writetitle()
     </script>
   </body>
